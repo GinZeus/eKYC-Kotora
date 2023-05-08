@@ -10,7 +10,6 @@ interface Iprop {
   width: number;
 }
 
-
 export const SuccessModal = (props: Iprop) => {
   const { visible, width, onClose } = props;
   return (
