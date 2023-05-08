@@ -9,6 +9,7 @@ interface Iprop {
   onClose: () => void;
   width: number;
 }
+//
 
 export const SuccessModal = (props: Iprop) => {
   const { visible, width, onClose } = props;
